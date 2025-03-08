@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-
+import {Request, Response} from "express"
 const app = require('express')()
 const port = process.env.PORT || 3000
 
