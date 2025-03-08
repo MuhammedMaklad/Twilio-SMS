@@ -1,7 +1,7 @@
 import {StatusCodes} from "http-status-codes";
 import {Request, Response, RequestHandler} from "express";
 import {verifyPhoneNumber} from "../utils/VerifyPhoneNumber";
-import {twilioService} from "../service/twilio";
+import {twilioService} from "../service/twilio.service";
 
 export const sendSMS = async (req: Request<{}, {}, { phone: string, message: string }>, res: Response) => {
     const { phone, message } = req.body;

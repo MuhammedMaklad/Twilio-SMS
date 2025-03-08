@@ -4,9 +4,9 @@ import {Request, Response} from "express"
 const app = require('express')()
 const port = process.env.PORT || 3000
 
-const mongoose = require('mongoose')
+import mongoose from 'mongoose';
 
-const authRouter = require("./routes/auth")
+import {authRouter} from "./routes/auth.route";
 
 app.get("/api/v1/test", (req :Request, res : Response) => {
     res.status(200).send("Muhammed on da code")
