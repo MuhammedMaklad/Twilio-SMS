@@ -24,7 +24,7 @@ Make sure you have the following installed:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/twilio-sms-auth.git
+   git clone https://github.com/MuhammedMaklad/twilio-sms-auth.git
    cd twilio-sms-auth
    ```
 
