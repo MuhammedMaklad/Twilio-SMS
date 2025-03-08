@@ -112,10 +112,7 @@ If you have any questions, feel free to **open an issue** or reach out!
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/your-username)
-```
-
----
+Made with ❤️ by [MuhammedMaklad](https://github.com/MuhammedMaklad)
 
 ### ✅ **Why This README is Useful?**
 ✔ **Structured Overview**  
@@ -124,4 +121,3 @@ Made with ❤️ by [Your Name](https://github.com/your-username)
 ✔ **Troubleshooting & Twilio-Specific Notes**  
 ✔ **Encourages Contributions & Issues Reporting**  
 
-Would you like any modifications or additions (e.g., Docker setup, deployment steps)? 🚀
