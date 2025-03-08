@@ -12,7 +12,7 @@ app.get("/api/v1/test", (req :Request, res : Response) => {
     res.status(200).send("Muhammed on da code")
 })
 app.get('/api/v1/auth',authRouter)
-app.use((req, res) => {
+app.use((req:Request, res:Response) => {
     res.status(404).send("Page not found")
 })
 
