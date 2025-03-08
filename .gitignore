@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# TypeScript cache and compiled output
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Dependencies lock files (if using a specific package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Docker
+docker-compose.override.yml
+
+# Miscellaneous
+*.bak
