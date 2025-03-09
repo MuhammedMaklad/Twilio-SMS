@@ -1,13 +1,15 @@
 require("dotenv").config();
 
 import {Request, Response} from "express"
-const app = require('express')()
+import express from "express"
+const app = express()
 const port = process.env.PORT || 3000
 
 import mongoose from 'mongoose';
 
 import {authRouter} from "./routes/auth.route";
 
+app.use(express.json())
 app.get("/api/v1/test", (req :Request, res : Response) => {
     res.status(200).send("Muhammed on da code")
 })
